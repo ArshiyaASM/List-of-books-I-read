@@ -1,0 +1,40 @@
+* {
+    padding: unset;
+    box-sizing: border-box;
+    margin: unset;
+}
+
+
+body {
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+
+.container {
+    width: 90%;
+    outline: 1px solid gray;
+    padding: 10px;
+    background-color: #ebebeb;
+}
+
+
+.container ul {
+    list-style-position: inside;
+    list-style-type: disc;
+}
+
+.container ul li {
+    margin: 10px 0px;
+}
+
+.container ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container ul li a:hover {
+    color: rgb(57, 7, 175);
+}
